@@ -57,7 +57,8 @@ header{
 
 }
 .order:hover{
-	background-color: white;
+	color: white;
+	border: white;
 }
 .colorchange{
 	animation: colorchangeBOOKFACTORY 1s infinite;
