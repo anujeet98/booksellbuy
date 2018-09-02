@@ -1,0 +1,241 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	overflow-x: auto;
+	font-family: 'Flamenco', cursive;
+}	
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/book.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height:100vh; 
+}
+
+
+.row{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.navbar{
+	float:right;
+	margin-top: 60px;
+}
+.navbar li{
+	display: inline-block;
+	margin-left: 40px; 
+}
+.navbar li a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+}
+.main-header{
+	color:white;
+	width: 1000px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.order{
+	font-weight:lighter;
+	font-size:60%;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: purple;
+	margin-right: 15px;
+	border: 1px solid purple;
+
+}
+.order:hover{
+	color: white;
+	border: white;
+}
+.colorchange{
+	animation: colorchangeBOOKFACTORY 1s infinite;
+}
+
+@keyframes colorchangeBOOKFACTORY{
+	0%{color: mediumpurple;}
+	25%{color:rebeccapurple;}
+	50%{color: purple;}
+    75%{color: re;}
+	100%{color:red;}
+}
+
+
+
+
+
+
+
+
+.signin
+{
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-image: url("../image/study.jpg");
+    background-size: cover;
+    
+}
+
+#login
+{
+    position: relative;
+    margin: 5% auto;
+    width:600px;
+    height :400px;
+    background :#fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    
+}
+
+.left_box
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    
+}
+
+h1
+{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+    
+}
+
+input[type="text"],
+input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    transition:  0.5s ease;
+}
+
+input[type="submit"]
+{
+    margin-bottom: 28px;
+    width:120px;
+    height: 32px;
+    background: #f44336;
+    border: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+    
+}
+
+input[type="sumit"]:hover,
+input[typr="submit"]:focus
+{
+    background: #ff5722;
+    transition: 0.2s ease; 
+    
+}
+
+.right_box
+{
+    position: absolute;
+    top:0;
+    right:0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height:400px;
+    background-image: url(../image/colorimg.jpg);
+    background-size: cover;
+    
+}
+
+.or
+{
+    position: absolute;
+    top:180px;
+    left:280px;
+    width:48px;
+    height:40px;
+    background: #efefef;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    line-height:40px;
+    text-align: center;
+    
+}
+
+.right_box .signinwith
+{
+    display: block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    
+}
+
+button.social
+{
+    margin-bottom: 20px;
+    width:220px;
+    height:36px;
+    border:none;
+    border-radius: 2px;
+    color:#fff;
+    font-family: sans-serif;
+    font-weight:500;
+    transition: 0.2s ease;
+    cursor: pointer;
+    
+}
+
+.facebook
+{
+    background: darkblue;
+}
+
+.twitter
+{
+    background: skyblue;
+}
+
+.google
+{
+    background: #dd4b39;
+}
+
+
+
+
