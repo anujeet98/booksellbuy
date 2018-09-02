@@ -5,7 +5,11 @@
 }
 body{
 	font-size: 20px;
+<<<<<<< HEAD
 	overflow-x: inherit;
+=======
+	overflow-x: auto;
+>>>>>>> 55ec89cef1d6bedea88bb20ef64742fc07faaf27
 	font-family: 'Flamenco', cursive;
 }	
 
@@ -58,7 +62,11 @@ header{
 }
 .order:hover{
 	color: white;
+<<<<<<< HEAD
     border: white;
+=======
+	border: white;
+>>>>>>> 55ec89cef1d6bedea88bb20ef64742fc07faaf27
 }
 .colorchange{
 	animation: colorchangeBOOKFACTORY 1s infinite;
