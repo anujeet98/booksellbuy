@@ -5,7 +5,7 @@
 }
 body{
 	font-size: 20px;
-	overflow-x: hidden;
+	overflow-x: inherit;
 	font-family: 'Flamenco', cursive;
 }	
 
@@ -57,7 +57,8 @@ header{
 
 }
 .order:hover{
-	background-color: white;
+	color: white;
+    border: white;
 }
 .colorchange{
 	animation: colorchangeBOOKFACTORY 1s infinite;
@@ -67,8 +68,8 @@ header{
 	0%{color: mediumpurple;}
 	25%{color:rebeccapurple;}
 	50%{color: purple;}
-    75%{color: re;}
-	100%{color:red;}
+    75%{color: mediumvioletred;}
+	100%{color:darkred;}
 }
 
 
@@ -80,6 +81,7 @@ header{
 
 .signin
 {
+    opacity: 0.8;
     margin: 0;
     padding: 0;
     background: #efefef;
@@ -97,7 +99,7 @@ header{
     position: relative;
     margin: 5% auto;
     width:600px;
-    height :400px;
+    height :450px;
     background :#fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
     
@@ -173,7 +175,7 @@ input[typr="submit"]:focus
     box-sizing: border-box;
     padding: 40px;
     width: 300px;
-    height:400px;
+    height:450px;
     background-image: url(../image/colorimg.jpg);
     background-size: cover;
     
