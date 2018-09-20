@@ -267,14 +267,27 @@ button.social
 
 
 
-dash{
-	background-image:url("../image/study.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	height:100vh; 
+
+.homebody{
+    background-image: url('../image/img01.png');
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 15px;
+}
+.card{
+    background-color: cornsilk;
+    margin-bottom: auto;
 }
 
+.col{
+    text-align: center;
+}
+
+.item{
+    margin-bottom: 9px;
+}
 
 
 
