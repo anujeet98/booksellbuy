@@ -270,24 +270,70 @@ button.social
 
 .homebody{
     background-image: url('../image/img01.png');
-    background-color: gray;
+    background-color: #3b3838;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-size: 15px;
 }
 .card{
-    background-color: cornsilk;
+    background-color: #7e7e7e;
     margin-bottom: auto;
 }
 
 .col{
     text-align: center;
+    color: #ccc8c8;
 }
 
 .item{
     margin-bottom: 9px;
 }
 
+
+
+
+
+
+#sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #101010;  
+    left: -200px;
+    transition: all 500ms linear; 
+}
+
+#sidebar.active{
+    left: 0px;
+}
+
+#sidebar ul li{
+    color: floralwhite;
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #cccbcb;
+}
+
+#sidebar .toggle-btn{
+    position: absolute;
+    left: 230px;
+    right: 20px;
+}
+
+#sidebar .toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: white;
+    margin-top: 5px;
+    margin-bottom :5px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
 
 

@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
 $(function(){
     $("form[name='reg']").validate({
@@ -13,6 +15,7 @@ $(function(){
           },
           password2:{
                  required:true,
+                 minlength:5,
                  minlength:5,
           }
          }, 

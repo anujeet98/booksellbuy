@@ -10,11 +10,33 @@
 <title>Dashboard page</title>    
 </head>
 <body class="homebody">
-
     
+    
+    
+    
+    <div id="sidebar">
+      <div class="toggle-btn" onclick="toggleSidebar()">
+        <span></span>
+        <span></span>  
+        <span></span>
+     </div>          
+      <ul>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>CONTACT</li>
+      </ul>  
+    </div>
+    <script>function toggleSidebar(){
+    document.getElementById('sidebar').classList.toggle('active');
+}
+</script>    
+
+
     <div class="container">
        <div class="row">
-           <div class="col"><h2>BOOK FACTORY</h2></div>
+           
+           <div class="col"><h2>BOOK FACTORY</h2>
+           </div>
         
         </div>
     
@@ -161,8 +183,16 @@
         1000:{
             items:5
         }
-    }
-})
+        
+    },
+            items:4,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true
+});
+    
+  
 
     </script>    
 <footer>
