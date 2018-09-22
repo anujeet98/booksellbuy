@@ -105,10 +105,11 @@ header{
     
 }
 
-#link
+#link,#linkt
 {
     
     font-size: 15px;
+    text-decoration: none;
 }
 
 .left_box
@@ -337,3 +338,25 @@ button.social
 }
 
 
+.left_box2{
+    position: relative;
+    top: 0px;
+    left: 2000px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+
+
+.left_box3
+{
+    position: absolute;
+    top: 0;
+    left: 2000px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    
+}
