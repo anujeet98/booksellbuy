@@ -11,83 +11,53 @@
         </script>
         
         <script>
-                 $(document).ready(function() {
-                       $('#link').click(function() {
-                           $('.left_box2').animate({
-                                'marginLeft' : "-=2000px" 
-                                
-                                 });
-        
-                           $('.left_box').animate({
-                              'marginLeft' : "+=2000px" 
-                                 });
-        
-                          });
-                    
-                   });
-                $(document).ready(function() {
-                       $('#linkback').click(function() {
-                           $('.left_box2').animate({
-                                'marginLeft' : "+=2000px" 
-                                 });
-        
-                           $('.left_box').animate({
-                              'marginLeft' : "-=2000px" 
-                                 });
-        
-                          });
-                    
-                   });
-                    $(document).ready(function() {
-                       $('#linkt').click(function() {
-                           $('.left_box3').animate({
-                                'marginLeft' : "-=2000px" 
-                                 });
-        
-                           $('.left_box').animate({
-                              'marginLeft' : "+=2000px" 
-                                 });
-        
-                          });
-                    
-                   });
-                    $(document).ready(function() {
-                       $('#back').click(function() {
-                           $('.left_box3').animate({
-                                'marginLeft' : "+=2000px" 
-                                 });
-        
-                           $('.left_box').animate({
-                              'marginLeft' : "-=2000px" 
-                                 });
-        
-                          });
-                    
-                   });
-                     
+               function myFunction() {
+               var x = document.getElementById("left_box");
+               var y = document.getElementById("left_box2");
+               x.style.display = "none";
+               y.style.display = "block";    
+
+               }
+               function myFunction2() {
+               var x = document.getElementById("left_box");
+               var y = document.getElementById("left_box2");
+               x.style.display = "block";
+               y.style.display = "none";
+               }
+               function myFunction3() {
+               var x = document.getElementById("left_box");
+               var y = document.getElementById("left_box3");
+               x.style.display = "none";
+               y.style.display = "block";
+               }
+               function myFunction4() {
+               var x = document.getElementById("left_box");
+               var y = document.getElementById("left_box3");
+               x.style.display = "block";
+               y.style.display = "none";
+               }
              </script> 
-        
         
     </head>
     <body class="signin">
       <div id="login">
+
           <div id=left_box>
-          <div class=left_box>
               <form name="reg" method="post">
               <h1> log in</h1><br><br>
               <input type="text" name="username" placeholder="Username"/>
               <input type="password" name="password" placeholder="Password"/> <br>               
               <input type="Submit" name="logup-button" placeholder="log Up"/>
-              <div id=link>      
-                  <a href='#'>New User?</a> </div><br>
-              <div id=linkt>      
-                  <a href='#'>Forgot Password</a> </div>      
+   
               </form>
+              <br>
+              <button1 onclick="myFunction()">New User</button1> 
+              <br>
+              <button1 onclick="myFunction3()">Forgot Password</button1>
           </div> 
-          </div>  
 
           
-          <div class=left_box2>
+          <div id=left_box2>
               <form name="reg2" method="post">
               <h1> Sign Up</h1>
             
@@ -95,22 +65,21 @@
               <input type="text" name="email" placeholder="Email"/>
               <input type="password" name="password" placeholder="Password"/>
               <input type="password" name="password2" placeholder="Retype password"/>                     
-              <input type="Submit" name="Signup-button" placeholder="Sign Up"/>
-              <div id=linkback>      
-                  <a href='#'>Already a User?</a> </div>
+              <input type="Submit" name="Signup-button" placeholder="Sign Up"/><br>
+              <button1 onclick="myFunction2()">Already a User</button1>
               </form>
           </div> 
           
 
           
-          <div class=left_box3>
+          <div id=left_box3>
               <form name="reg3" method="post">
               <h1> Reset Password </h1><br>
               <input type="text" name="username" placeholder="Username"/>
               <input type="text" name="email" placeholder="Email"/><br>                  
               <input type="Submit" name="Signup-button" placeholder="Sign Up"/>
-              <div id=back>      
-                  <a href='#'>Back</a> </div>      
+                  <br>
+              <button1 onclick="myFunction4()">Back</button1>
               </form>
           </div> 
           
