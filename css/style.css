@@ -353,7 +353,7 @@ button.social
 #search-box{
     position: absolute; 
     top:3px;
-    right: 139px;
+    right: 114px;
     background: #f1f1f1;
     width: 56%;
 
@@ -361,7 +361,7 @@ button.social
 #sea_btn{
     position: absolute; 
     top:3px;
-    right: 139px;
+    right: 114px;
     color:white;
     background: #2196F3;
     border: 1px solid grey;
@@ -381,18 +381,7 @@ button.social
    
 }
 
-.container11{
-    display: block;
-    background-attachment: fixed;
-    
-    box-sizing: content-box;
-    background-color: #211e1e;
-    width: 100%;
-    opacity: 0.8;
-    height: 50px;
-    position: 0px;
-    color: black;
-}
+
 
 #container12{
     display: block;
